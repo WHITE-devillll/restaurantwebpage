@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project3.css">
+    <title>Project</title>
+</head>
+<body>
+    <div class="conatiner">
+        <section aria-label="navbar">
+            <nav class="navbar">
+                <div >
+                    <img src="white-logo.png" alt="LOGO" class="logo">
+                </div>
+                <div>
+                    <ul class="list">
+                        <li class="list-items">Our Menu</li>
+                        <li class="list-items">Maps</li>
+                        <li class="list-items">About</li>
+                        <li class="list-items">Contact</li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="Small-button">ORDER</button>
+                </div>
+
+            </nav>
+
+        </section>
+
+    <section aria-label="hero">
+        <div class="hero">
+            <h1 class="hero-heading">
+                A Restaurant that serves only Delicious Food
+            </h1>
+                <button class="large-button">Read Our Menu</button>
+            
+            <div class="bottom">
+                <div>
+                    <img src="scrool.png" alt="bottom.logo">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
