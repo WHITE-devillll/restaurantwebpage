@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    margin-top: 55px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 63px; 
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    font-weight: 600;
+    line-height: 22px;
+    color: #ffc233;
+}
+
+
+.logo{
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+
+.list-items{
+    cursor: pointer;
+}
+
+.Small-button{
+    padding: 12px 40px;
+    background-color: #ff505f;
+    border: none;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+.hero{
+    max-width: 1154px;
+    text-align: center;
+    margin-top: 119px;
+    margin: 0 auto;
+}
+
+.hero-heading{
+  font-family: "Dela Gothic One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 200px;
+  /* or 110% */
+  color: #ffc233;
+}
+
+.large-button{
+    padding: 24px 56px;
+    margin-top: 64px;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-style: normal;
+    background: #ff505f;
+    line-height: 40px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
