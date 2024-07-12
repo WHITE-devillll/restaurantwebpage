@@ -28,6 +28,21 @@
             </nav>
 
         </section>
+<div class="conatiner">
+    <section id="ourmenu" aria-label="navbar">
+        <!-- ... -->
+    </section>
+    <section id="maps" aria-label="hero">
+        <!-- ... -->
+    </section>
+    <section id="about">
+        <!-- About section content -->
+    </section>
+    <section id="contact">
+        <!-- Contact section content -->
+    </section>
+</div>
+
 
     <section aria-label="hero">
         <div class="hero">
@@ -44,6 +59,34 @@
         </div>
     </section>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    // Smooth scroll for navigation items
+    document.querySelectorAll('.list-items').forEach(item => {
+        item.addEventListener('click', event => {
+            // Prevent default link behavior
+            event.preventDefault();
+            
+            // Determine target element
+            const targetId = event.target.textContent.replace(' ', '').toLowerCase();
+            const targetElement = document.querySelector(`#${targetId}`);
+            
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Alert on ORDER button click
+    document.querySelector('.Small-button').addEventListener('click', () => {
+        alert('Order button clicked!');
+    });
+});
+</script>
+
 
 </body>
 </html>
