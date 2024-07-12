@@ -1,0 +1,25 @@
+document.addEventListener('DOMContentLoaded', () => {
+    // Smooth scroll for navigation items
+    document.querySelectorAll('.list-items').forEach(item => {
+        item.addEventListener('click', event => {
+            // Prevent default link behavior
+            event.preventDefault();
+            
+            // Determine target element
+            const targetId = event.target.textContent.replace(' ', '').toLowerCase();
+            const targetElement = document.querySelector(`#${targetId}`);
+            
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Alert on ORDER button click
+    document.querySelector('.Small-button').addEventListener('click', () => {
+        alert('Order button clicked!');
+    });
+});
